@@ -1,0 +1,3 @@
+#!/bin/bash
+DIR=$(pwd)
+sudo startx /usr/bin/python $DIR/telly.py --window-size=1920,1080 --start-fullscreen --kiosk --
